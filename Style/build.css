@@ -1,0 +1,422 @@
+﻿/*general*/
+
+a
+{
+   color:#666;
+}
+
+.clear
+{
+  clear:both;
+}
+
+.label 
+{
+   color:#555;
+   float:left;
+   width:8em;
+   margin-bottom:0.4em;
+   display:block;
+}
+
+.input
+{
+   width:30em;
+   margin-bottom:0.2em;
+   display:block;
+   margin-bottom:0.4em;
+}
+
+.imageBox
+{
+   width:105px;
+   float:left;
+}
+
+.button
+{
+   *height:22px;
+}
+
+/* Popup edit content boxes */
+ 
+.contentEditPanel
+{
+   position:absolute;
+   /*left:150px;*/
+   left:50px;
+   top:20px;
+   /*width:50.2em;*/
+   width:65.2em;
+   z-index:100;
+}
+/*
+*html .contentEditPanel
+{
+   !width:52.2em;
+}
+*/
+.editBoxHeader
+{
+  color:black;
+  font-weight:bold; 
+  font-size:1.2em;
+  background:white url(../Build/images/shading.jpg) repeat-x bottom left; 
+  border-left:2px solid #A2BFE9;
+  border-right:2px solid #A2BFE9;
+  border-top:2px solid #A2BFE9;
+  height:3.5em;
+}
+
+.editBoxHeader span
+{
+   float:right;
+   padding:0.5em 2em 1em 0;
+}
+
+.editBoxContent
+{
+    padding:1em;
+    border-left:2px solid #A2BFE9;
+    border-right:2px solid #A2BFE9;
+    border-bottom:2px solid #A2BFE9;
+    background:white;
+    color:#777;
+    position:relative;
+    z-index:200000;
+}
+
+div.editButton
+{
+   width:100%;
+   clear:both;
+}
+
+input.editButton
+{
+   background-color:#809dc7;
+   padding:0em 1em;
+   margin-top:0.8em;
+   font-size:1em;
+   color:White;
+   float:right;
+   margin-left:1em;
+   display:block;
+   height:22px;
+}
+
+a.editButton
+{
+	padding: 0.1em;
+   background-color:#809dc7;
+   text-decoration: none;
+   font-size:1em;
+   color:White;
+   height:22px;
+   text-transform: capitalize;
+}
+
+.editBoxContent .input
+{
+    width:45em;
+   *width:39.8em;
+}
+
+
+/* Image Panel edit */
+
+.imagePreview
+{
+  position:absolute;
+  top:70px;
+  left:530px;
+}
+
+*html .imagePreview
+{
+  !top:70px;
+  !left:545px;
+}
+
+.grdItems td
+{
+   padding:5px;
+}
+
+.grdItems td a
+{
+   color:White;
+   background:#809dc7;
+   padding:0.1em 0.4em;
+   text-decoration:none;
+   font-weight:bold;
+   border:1px solid #ddd;
+}
+
+.buttonLink a
+{
+  color:#809dc7;
+}
+
+submit
+{
+    background:#A2BFE9;
+}
+
+/*settings pages */
+
+#siteSettings
+{
+   width:77em;
+   position:relative;
+   font-size:12px;
+}
+
+#siteSettings .label
+{
+   color:#555;
+   float:left;
+   width:11em;
+   margin-bottom:0.2em;
+   display:block;
+}
+
+#siteSettings .input
+{
+   margin-bottom:0.2em;
+   display:block;
+   margin-left:11em;
+   width:49em;
+}
+
+#siteSettings .imagePreview
+{
+  position:absolute;
+  /*
+  left:690px;
+  top:280px;*/
+  left:550px;
+  /*top:30px;*/
+  top:150px;
+}
+
+#siteSettings ul
+{
+  list-style-type:none;
+}
+
+#siteSettings li
+{
+  margin:0.3em 0;
+
+}
+
+#siteSettings .buttonLink
+{
+   margin:0 0.3em;
+   color:#64379B;
+}
+
+#siteSettings .contentEditPanel .input
+{
+   *width:30em;
+}
+
+.rsAdvRecurrencePatterns
+{
+    height: 125px !important;
+}
+
+#ctl00_phEditPanel_pnlEditImagePanel div div div#linkSelection,
+#ctl00_phEditPanel_PageListEdit1_pnlEditListItem div div#linkSelection
+{
+   margin-left:8em;
+   *margin-left:0em;
+}
+
+#ctl00_ContentPlaceHolder1_DivLinkEditor div div#linkSelection
+{
+	margin-left:11em;
+	*margin-left:0em;
+}
+
+
+
+#divPleaseWait
+{
+	position: absolute;
+	width: 40em;
+	height: 21em;
+	top: 7em;
+	left: 14em;
+	background-color: White;
+	opacity: 0.9;
+	display: block;
+	margin-top: 3em;
+	text-align: center;
+	font-size: 2em;
+	display: none;
+}
+
+div.editBoxContent div input.btnShow
+{
+	margin-left: 7.7em;
+}
+
+div#siteSettings div input.btnShow
+{
+	margin-left: 9.8em;
+	width: 11.4em;
+}
+
+.ImageSelector
+{
+	padding: 10px;
+	background-color: Black;
+}
+
+
+
+
+/* MyDonate */
+.myDonateButtonSelector
+{
+    width: 635px;
+}
+    
+.myDonateOption
+{
+    clear: both;
+}
+    
+.myDonateOption .label
+{
+    width: 18.5em !important;
+}
+    
+.myDonateOption .input input
+{
+    width: 26em;
+}
+    
+.myDonateButtonRow
+{
+    clear: both;
+}
+    
+.myDonateButtonBig
+{
+    float: left;
+    margin-right: 10px;
+}
+    
+.myDonateButtonLower
+{
+    float: left;
+    margin-right: 10px;
+    width:100%;
+}
+.myDonateButtonSmall
+{
+    float: left;
+    margin-right: 10px;
+}
+    
+.myDonateButtonBig input
+{
+    display: block;
+    float: left;
+    margin-top: 55px;
+}
+    
+.myDonateButtonLower input
+{
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+    
+.myDonateButtonSmall input
+{
+    display: block;
+    float: left;
+    margin-top: 50px;
+}
+    
+.myDonateSubmit
+{
+    clear: both;
+    float: right;
+}
+
+.btnMyDonateButtonImage
+{
+    width: auto !important;
+    float: left;
+}
+    
+#DivMyDonateButtonSection .label
+{
+    clear: both;
+}
+
+/* homepage banners */
+
+#homepageBanners
+{
+    /*background:url('/images/home/Updated-Community-web-kit-01.jpg') no-repeat;*/
+    width:950px;
+    height:508px;
+}
+
+#homepageBanners ul
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#homepageBanners li
+{
+list-style:none;
+
+}
+
+#homepageBanners li img
+{ 
+    border:0;
+}
+
+#ctl00_ContentPlaceHolder1_divGDPR{
+    background-color: white;
+    width: 90%;
+    color: red;
+    position: relative;
+    border: 3px solid;
+    padding: 50px;
+    z-index: 100;
+}
+#ctl00_ContentPlaceHolder1_btnGDPRacc, #ctl00_ContentPlaceHolder1_btnGDPRrej{
+    width: 340px;
+    background: #321e5b;
+    font-size: 17px;
+    color: #fff;
+    padding: 5px;
+    margin: 20px 10px 0 0;
+    border-radius: 0;
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+
+
+#ctl00_phEditPanel_PageContentEdit2_radEditorWrapper:not(*:root) {
+    height: 346px !important;
+}
+
+#ctl00_phEditPanel_PageImagePanelEdit1_radEditor:not(*:root) {
+    height: 359px !important;
+    min-height: 359px !important;
+}
+
+
